@@ -1,0 +1,8 @@
+ol li a{text-decoration: none;}
+.colors{width: 60%; height: auto; background: linear-gradient(to right,green ,yellow,red);}
+.area1{width: 200px; height: auto; background-color: red;}
+.area2{width: 200px; height: auto; background-color: red; opacity: 0.7;}
+header{border: 2px solid; border-color: red;}
+.top-content{background-color: skyblue; padding: 20px;height: 250px; width: 50%;}
+.bottom-content{background-color:pink ; margin: 20px; height: 150px; width: 30%;}
+.x, .y, .z{color: red;padding: 40px;}

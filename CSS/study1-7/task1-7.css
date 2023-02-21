@@ -1,0 +1,33 @@
+ｓ.box1{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    transition-property: background;
+    transition-delay: 2s;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+
+.box1:hover{ 
+    background-color: purple;
+    transition-property: background;
+    transition-delay: 2s;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+   background: blue;
+   position: relative;
+    transform: rotate(0deg);
+    transition: width 2s ease 1s, 
+        transform 1.5s ease-out 0.5s;
+}
+
+.box2:hover{
+    width: 300px;
+    transform: rotate(180deg);
+}

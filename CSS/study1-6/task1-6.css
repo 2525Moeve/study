@@ -1,0 +1,36 @@
+body{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.scene{
+    perspective: 1000px;
+    width: 100px;
+    height: 100px;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.box{
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    transform: rotateX(-30deg) rotateY(20deg) ;
+}
+
+.a,.b,.c{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.a{
+    transform: translateY(-50px) rotateX(-90deg);
+    
+}
+
+.b{transform: translateZ(50px);}
+
+.c{transform: translateX(-50px) rotateY(-90deg);}
+
+

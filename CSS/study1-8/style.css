@@ -1,0 +1,107 @@
+.menu-btn{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #3584bb;
+}
+
+.menu-btn span,.menu-btn span:before,.menu-btn span:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.menu-btn span:before{
+    bottom: 8px;
+}
+.menu-btn span:after{
+    top: 8px;
+}
+
+#menu-btn-check:checked ~ .menu-btn span{
+    background-color: rgba(255,255, 255, 0);
+}
+#menu-btn-check:checked ~ .menu-btn span::before{
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after{
+    top: 0;
+    transform: rotate(-45deg);
+}
+#menu-btn-check{
+    display: none;
+}
+
+#menu-btn-check:checked ~ .menu-content{
+    height: 100%;
+    width: 100%;
+    background-color: #3584bb;
+    left: 70%;
+    top: 0px;
+    position: fixed;
+}
+
+.menu-content ul{
+    padding: 70px 10px 0;
+}
+.menu-content ul li{
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: fixed;
+    right: 11px;
+    top: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#cat,#dog,#rabit{
+    scroll-margin-top: 20px; 
+}
+
+
+
+/* CSS基礎8
+   学習で使用したコードに追加で下記のコードを追記してください。
+
+
+html{
+ scroll-behavior:〇〇 ;
+}
+htmlセレクタ内の〇〇にスクロール内容を指定してください。
+
+
+指定したidのプロパティに下記のコードを追記しましょう。
+scroll-margin-top: 20px;

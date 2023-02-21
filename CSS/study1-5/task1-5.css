@@ -1,0 +1,36 @@
+.z_index{display: flex;position: relative;width: 100%;height: 100%;}
+.spade,.heart{margin-top:10vh;width:50%; position: relative;}
+
+.s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8,.s9,.s10,.sj,.sq,.sk{background-color: skyblue;}
+
+p{width: 100px;height: 130px;border:black 2px solid;margin-left:0.5%;}
+
+.s1{z-index: 1;position: absolute;left: 0px;}
+.s2{z-index: 2;position: absolute;left: 30px;}
+.s3{z-index: 3;position: absolute;left: 60px;}
+.s4{z-index: 4;position: absolute;left: 90px;}
+.s5{z-index: 5;position: absolute;left: 120px;}
+.s6{z-index: 6;position: absolute;left: 150px;}
+.s7{z-index: 7;position: absolute;left: 180px;}
+.s8{z-index: 8;position: absolute;left: 210px;}
+.s9{z-index: 9;position: absolute;left: 240px;}
+.s10{z-index: 10;position: absolute;left: 270px;}
+.sj{z-index: 11;position: absolute;left: 300px;}
+.sq{z-index: 12;position: absolute;left: 330px;}
+.sk{z-index: 13;position: absolute;left: 360px;}
+
+.h1,.h2,.h3,.h4,.h5,.h6,.h7,.h8,.h9,.h10,.hj,.hq,.hk{background-color: pink;}
+
+.hk{position: absolute;left: 10px;z-index: 1;}
+.hq{position: absolute;top: 25px;left: 30px;z-index: 2;}
+.hj{position: absolute;top: 50px;left: 50px;z-index: 3;}
+.h10{position: absolute;top: 75px;left: 70px;z-index: 4;}
+.h9{position: absolute;top: 100px;left: 90px;z-index: 5;}
+.h8{position: absolute;top: 125px;left: 110px;z-index: 6;}
+.h7{position: absolute;top: 150px;left: 130px;z-index: 7;}
+.h6{position: absolute;top: 125px;left: 160px;z-index: 8;}
+.h5{position: absolute;top: 100px;left: 195px;z-index: 9;}
+.h4{position: absolute;top: 75px;left: 220px;z-index: 10;}
+.h3{position: absolute;top:50px;left: 240px;z-index: 11;}
+.h2{position: absolute;top: 25px;left: 260px;z-index: 12;}
+.h1{position: absolute; left: 280px;z-index: 13;}

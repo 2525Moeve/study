@@ -1,0 +1,30 @@
+@media screen and (min-width:500px){
+    body{background-color: pink;
+        }
+    .flowers{height: 90vh;
+            width: 100%;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            }
+}
+
+@media screen and (max-width:500px){
+    body{background-color: yellow;
+    }
+    .flowers{height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.flower1,.flower2,.flower3{height:250px;width: 350px;}
+.flower1 img{height: 100%;width: 100%;}
+.flower2 img{height: 100%;width: 100%;}
+.flower3 img{height: 100%;width: 100%;}
+
+
+

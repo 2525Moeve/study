@@ -1,0 +1,84 @@
+body {
+    background-image:url("../task2-9/haikei.jfif");
+   }
+
+   .top-content{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(236, 221, 203);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;}
+
+    .image1{
+    height: 300px;
+    width: 300px;
+    background-color:white;
+    position: relative;
+   }
+   .image2{
+    height: 300px;
+    width: 300px;
+    background-color:white;
+    position: relative;
+   }
+   .image3{
+    height: 300px;
+    width: 300px;
+    background-color:white;
+    position: relative;
+   }
+
+   .bottom-content{height: 600px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ header{
+    height: 50px;
+    background-color: rgb(192, 229, 241);
+ }
+   .logo{
+    height: 50px;
+    display:inline-block;
+    background-color: rgb(192, 229, 241);
+ }
+.menu{
+    height: 50px;
+    float: right;
+    background-color: rgb(192, 229, 241);
+}
+  header ul li{
+    list-style: none;
+    display: inline-block;
+   }
+
+h2{
+    background-color: white;
+    width: 12%;
+    border: solid 1px pink;
+}
+
+h3{
+    background-color: white;
+    width: 14%;
+    border: solid 1px pink;
+}
+
+.events{
+    background-color: white;
+    padding: 30px;
+    padding-left: 50px;
+    border: solid 3px black ;
+}
+
+.event{
+    padding-bottom: 20px;
+}
+
+.day{
+    color: orange;
+}

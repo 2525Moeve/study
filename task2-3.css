@@ -1,0 +1,6 @@
+header{height: 50px;width: 100%; background-color: gray;}
+.zone{height:500px ;width: 100%;background-color: white;display: flex;justify-content: space-between;align-items: center;}
+ .l-zone{height: 200px; width: 200px; background: linear-gradient(to top,skyblue,yellow);}
+ .c-zone{height: 200px; width: 200px; background: linear-gradient(to right,green,blue);}
+ .r-zone{height: 200px; width: 200px; background: linear-gradient(to bottom,purple,pink);}
+ footer{height: 50px;width: 100%; background-color: gray;}
